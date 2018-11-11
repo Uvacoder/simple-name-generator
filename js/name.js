@@ -2,12 +2,14 @@
 $('.btn-male').click(function() {
     $('h2').text(randomEl(maleFirstName)+' '+randomEl(lastname));
     $('body').css("background-color", "black");
+    $('body').css("color", "white");
 });
 
 
 $('.btn-female').click(function() {
     $('h2').text(randomEl(femaleFirstName)+' '+randomEl(lastname));
-    $('body').css("background-color", "#ff6b81");
+    $('body').css("background-color", "white");
+    $('body').css("color", "black");
 });
 
 function randomEl(list) {
