@@ -1,16 +1,12 @@
 
 $('.btn-male').click(function() {
-    $('h2').text(randomEl(firstname)+' '+randomEl(lastname));
+    $('h2').text(randomEl(maleFirstName)+' '+randomEl(lastname));
     $('body').css("background-color", "black");
-  	// particleground(document.getElementById('particles'), {
-   //  	dotColor: 'grey',
-   //  	lineColor: 'grey' 
-  	// });
 });
 
 
 $('.btn-female').click(function() {
-    $('h2').text(randomEl(femalename)+' '+randomEl(lastname));
+    $('h2').text(randomEl(femaleFirstName)+' '+randomEl(lastname));
     $('body').css("background-color", "#ff6b81");
 });
 
@@ -27,11 +23,89 @@ function selectElementContents(el) {
     sel.addRange(range);
 }
 
-var femalename = [
+var femaleFirstName = [
+"Emma",
+"Louise",
+"Jade",
+"Alice",
+"Chloé",
+"Lina",
+"Léa",
+"Mila",
+"Manon",
 "Rose",
-"Angela"
+"Anna",
+"Inès",
+"Camille",
+"Lola",
+"Ambre",
+"Léna",
+"Zoé",
+"Juliette",
+"Julia",
+"Lou",
+"Sarah",
+"Lucie",
+"Mia",
+"Jeanne",
+"Romane",
+"Agathe",
+"Nina",
+"Charlotte",
+"Inaya",
+"Margaux",
+"Margot",
+"Mathilde",
+"Eva",
+"Sofia",
+"Léonie",
+"Adèle",
+"Clémence",
+"Elena",
+"Victoria",
+"Anaïs",
+"Iris",
+"Elise",
+"Océane",
+"Gabrielle",
+"Héloïse",
+"Salomé",
+"Amélia",
+"Justine",
+"Célia",
+"Roxane",
+"Nora",
+"Eden",
+"Julie",
+"Andréa",
+"Myriam",
+"Capucine",
+"Lana",
+"Aya",
+"Charline",
+"Stella",
+"Cassandre",
+"Sasha",
+"Tessa",
+"Lucy",
+"Mélissa",
+"Eline",
+"Naomi",
+"Théa",
+"Lily",
+"Violette",
+"Louane",
+"Cléa",
+"Céline",
+"Joséphine",
+"Cécile",
+"Déborah",
+"Amélie",
+"Eloïse",
+"Audrey"
 ]
-var firstname = [
+
+var maleFirstName = [
 "Abel"
 , "Achille"
 , "Adolphe"

@@ -135,6 +135,7 @@ button {
           transition: all 0.4s;
   border-radius: 15px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .btn-male {
