@@ -6,7 +6,6 @@
 * [Project Purpose](#project-purpose)
 * [How To Run the Project](#how-to-run-the-project)
 * [Dependencies](#dependencies)
-* [Credit](#credit)
 
 ## Project Purpose:
 
@@ -19,8 +18,5 @@ or you can clone it to your machine and open `index.html`
 
 ## Dependencies
 
-This project is using [Jasmine 2.1.2](http://jasmine.github.io/) 
+This project is using [jQuery 3.1.1](http://jasmine.github.io/) and jQuery Particleground plugin.
 
-## Credit
-
-Pre-existing application by Udacity, tests are written by @yunkii.
